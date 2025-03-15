@@ -1868,4 +1868,98 @@ footer h3{
         width: 0.613em;
         height: 0.629em;
     }
+
+    .quotesSection{
+        width: 48em;
+        height: 16.813em;
+    
+    }
+    
+    .quotesContentSection{
+        width: 61.341em;
+        height: 11.676em;
+        margin-left: 0.9em;
+        margin-top: 2.688em;
+    }
+    
+    .quotesTitle{
+        margin-top: 0;
+    }
+
+    .quotesTitle h3{
+        font-size: 0.65em;
+        margin-top: 0.55em;
+    
+    }
+    
+    .quotesTitle h2{
+        width: 20.8em;
+        font-size: 2.058em;
+        margin-top: 0.85em;
+    }
+    
+    .quotesTitle p{
+        font-size: 0.686em;
+        margin-top: 1.5em;
+    }
+
+    .quotes{
+        width: 40.012em;
+        height: 11.676em;
+        margin-left: 0.6em;
+    }
+    
+    .firstQuote{
+        width: 18.599em;
+        height: 9.077em;
+        display: flex;
+    }
+    
+    .firstQuote p{
+        width: 21em;
+        height: 6em;
+        font-size: 0.739em;
+        letter-spacing: 0.03em;
+        margin-left: 2.2em;
+        margin-top: 1.449em;
+    }
+    
+    .firstQuoteText{
+        width: 18.599em;
+        height: 7.711em;
+    }
+    
+    .firstQuote img{
+        width: 2.726em;
+        height: 2.732em;
+        margin-top: 6.3em;
+        margin-left: 7.8em;
+        position: absolute;
+    }
+
+    .secondQuote{
+        margin-top: 0.1em;
+        width: 218.599em;
+        height: 7.711em;
+        margin-left: 3em;
+    }
+    
+    .secondQuote p{
+        font-size: 0.739em;
+        margin-left: 2em;
+        margin-top: 1.449em;
+    }
+
+    .quotes_slider_nav{
+        width: 14.774em;
+        column-gap: 1.063em;
+        margin-top: 10.9em;
+        margin-left: 23.25em;
+        height: 0.705em;
+    }
+    
+    .quotes_slider_nav a{
+        width: 0.704em;
+        height: 0.705em;
+    }
 }
