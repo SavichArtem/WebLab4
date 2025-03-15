@@ -617,7 +617,6 @@ span{
     font-size: 1.5em;
     letter-spacing: 0%;
     font-weight: 500;
-
 }
 
 .arrows{
@@ -1765,8 +1764,108 @@ footer h3{
         margin-top: 7.2%;
         margin-left: 1.7em;
     }
+    .blog{
+        width: 48em;
+        height: 28.871em;
+    }
+    
+    .blogTextSection{
+        width: 15.75em;
+        height: 3.946em;
+        margin-left: 33.6%;
+        margin-top: 3.55%;
+    }
 
+    .arrows{
+        grid-template-columns: 1.761em 1.761em;
+        gap: 41.5em;
+        margin-left: 2.65%;
+        margin-top: 30.5%;
+    }
 
+    .arrows img{
+        height: 1.4em;
+        width: 2.15em;
+    }
 
+    .blogImage{
+        width: 36.683em;
+        height: 15.086em;
+        margin-left: 11.7%;
+        margin-top: 16.2%;
+    }
 
+    .blogText{
+        width: 16.557em;
+        height: 10.471em;
+        margin-left: 19.4em;
+        margin-top: 6.4%;
+    }
+
+    .imagesInBlog{
+        grid-template-columns: 10.236em 4.847em;
+        gap: 0.492em;
+        width: 15.584em;
+        height: 10.224em;
+    }
+
+    .firstBlogImage{
+        width: 10.236em;
+        height: 10.2em;
+    }
+
+    .secondBlogImage{
+        width: 4.857em;
+        height: 4.859em;
+    }
+
+    .thirdBlogImage{
+        width: 4.857em;
+        height: 4.859em;
+    }
+
+    .blogText h3{
+        font-size: 1.379em;
+    }
+    
+    .blogText p{
+        margin-top: 6.15%;
+        font-size: 0.563em;
+    }
+
+    .blogText .readBtnBlog{
+        margin-top: 8%;
+        width: 8.65em;
+        height: 3.2em;
+        font-size: 0.647em;
+    }
+    
+    .blogText .addClickBlog{
+        width: 10.503em;
+        height: 2.141em;
+        margin-left: 45.5%;
+        margin-top: 9.8%;
+    }
+
+    .blogText .addClickBlog a{
+        font-size: 0.8em;
+    }
+
+    .increaseBtn{
+        margin-left: 25%;
+        margin-top: 25%;
+        background-size: 0.85em;
+      }
+
+    .blog_slider_nav{
+        width: 3.676em;
+        column-gap: 0.938em;
+        top: 92%;
+        left: 46%;
+    }
+    
+    .blog_slider_nav a{
+        width: 0.613em;
+        height: 0.629em;
+    }
 }
