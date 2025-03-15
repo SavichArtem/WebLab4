@@ -276,6 +276,8 @@ span{
     font-family: "Roboto", serif;
     height: 19.48%;
     font-weight: normal;
+    text-align: left;
+    width: 27em;
     color: #8D96BD;
     font-size: 0.938em;
     letter-spacing: 0.028em;
@@ -1544,5 +1546,66 @@ footer h3{
 
     .thirdCustomer{
         padding-top: 0.5em;
+    }
+
+    .plan_manage{
+        height: 39.5em;
+        width: 48em;
+        padding-left:  0;
+    }
+
+    .plan_manage h2{
+        padding-top: 4.8%;
+        padding-left: 39.3%;
+        width: 111.676em;
+        height: 0.784em;
+        font-size: 0.688em;
+    }
+    
+    .plan_manage h3{
+        width: 9em;
+        height: 1em;
+        font-size: 2.25em;
+        margin-top: 3.50%;
+        margin-left: 6.5em;
+    }
+    
+    .plan_manage p{
+        height: 15em;
+        width: 41.5em;
+        font-size: 1.014em;
+        margin-top: 1.1em;
+        margin-left: 3.2em;
+        text-align: center;
+    }
+    
+    .plan_manage img{
+       margin-left: 5.82%;
+       width: 81%;
+       height: 50.2%;
+       margin-top: 13.2em;
+    }
+    .plan_manage .seeFeaturesBtn{
+        margin-left: -0.5%;
+        height: 4.2em;
+        width: 14.9em;
+        font-size: 0.887em;
+        font-weight: 500;
+    }
+    
+    .plan_manage .videoPlayBtn{
+        margin-top: 24.2%;
+        margin-left: 23%;
+        background-position: 80% 50%;
+        background-image: url('../assets/Polygon_tablet.png');
+        height: 4.5em;
+        width: 16em;
+    }
+    .plan_manage .videoPlayBtn .buttonTxt{
+        font-family: "Quicksand", serif;
+        color: white;
+        font-size: 1.07em;
+        font-weight: bold;
+        margin-right: 4em;
     }
 }
