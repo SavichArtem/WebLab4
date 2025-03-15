@@ -1584,6 +1584,7 @@ footer h3{
        width: 81%;
        height: 50.2%;
        margin-top: 13.2em;
+       background-attachment: fixed;
     }
     .plan_manage .seeFeaturesBtn{
         margin-left: -0.5%;
@@ -1602,10 +1603,109 @@ footer h3{
         width: 16em;
     }
     .plan_manage .videoPlayBtn .buttonTxt{
-        font-family: "Quicksand", serif;
-        color: white;
         font-size: 1.07em;
-        font-weight: bold;
         margin-right: 4em;
     }
+
+    .features{
+        width: 48em;
+        height: 37.375em;
+        position: relative;
+    }
+
+    .cloudsSection{
+        width: 48em;
+        height: 37.375em;
+        background-image: url('../assets/clouds.svg');
+        background-position: top;
+        background-size: 51.8em;
+        background-repeat: no-repeat;
+        margin-left: 0em;
+        padding-right: 5em;
+        margin-top: 3.75em;
+        position: absolute;
+    }
+    .contentSection{
+        width: 46.808em;
+        height: 33em;
+        margin-left: 0.563em;
+        margin-top: -2.7em;
+        position: absolute;
+    }
+    
+    .featSection{
+        width: 100%;
+        height: 46%;
+        margin-top: 20.5%;
+        display: grid;
+        grid-template-columns: 10.609em 10.609em 10.609em 10.609em;
+        gap: 1.458em;
+        text-align: center;
+        position: absolute;
+    }
+
+    .textAboutSection{
+      width: 19.318em;
+      height: 5.256em; 
+      position: absolute;
+      text-align: center;
+      margin-left: 14.2em;
+    }
+    
+    .textAboutSection h2{
+        font-size: 0.842em;
+    }
+    
+    .textAboutSection h3{
+        margin-top: 9%;
+        font-size: 2.02em;
+    }
+
+    .features h4{
+        line-height: 177%;
+        font-size: 1.146em;
+        margin-top: 0.4em;
+    }
+    
+    .features p{
+        font-size: 0.836em;
+        margin-top: 0.55em;
+        height: 45%;
+    }
+
+    .features img{
+        width: 5.229em;
+        height: 5.244em;
+    }
+    
+    .features hr{
+        display: none;
+    }
+
+    .buttonsAboutSection{
+        width: 28.288em;
+        height: 3.619em;
+        display: grid;
+        grid-template-columns: 9.486em 1.75em 9.4em;
+        gap: 3.8em;
+        position: absolute;
+        margin-left: 19.85%;
+        margin-top: 63%;
+    }
+    
+    .buttonsAboutSection .readMoreBtn{
+        font-size: 1.094em;
+    }
+    
+    .buttonsAboutSection .getStartedBtn{
+        font-size: 1.094em;
+    }
+    
+    .buttonsAboutSection p{
+        width: 1.9em;
+        height: 2.188em;
+        font-size: 1.204em;
+        margin-top: 30%;
+    }
+
 }
