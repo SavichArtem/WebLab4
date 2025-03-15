@@ -1411,6 +1411,19 @@ footer h3{
     transform: scale(1.1);
 }
 
+.menuMobile_footer{
+    display: none;
+    width: 2.38em;
+    height: 2.3em;
+    margin-left: 3.6em;
+    margin-top: 1.65em;
+    background-image: url('../assets/menuMobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
 @media (max-width: 768px){
     .header{
         height: 4.125em;
@@ -1551,6 +1564,7 @@ footer h3{
         height: 39.5em;
         width: 48em;
         padding-left:  0;
+        position: relative;
     }
 
     .plan_manage h2{
@@ -1579,11 +1593,10 @@ footer h3{
     }
     
     .plan_manage img{
-       margin-left: 5.82%;
-       width: 81%;
-       height: 50.2%;
+       margin-left: 6%;
+       width: 37.8em;
+       height: 27.5em;
        margin-top: 13.2em;
-       background-attachment: fixed;
     }
     .plan_manage .seeFeaturesBtn{
         margin-left: -0.5%;
@@ -2042,5 +2055,168 @@ footer h3{
         margin-top: 5.11em;
         margin-left: 41em;
     }
+
+    .get_started_section{
+        width: 48em;
+        height: 14.875em;
+    }
+    
+    .gs_clouds{
+        width: 43.233em;
+        height: 10.616em;
+        margin-left: 1.8em;
+        margin-top: 2.5em;
+        background-size: 735px;
+    }
+    
+    .gs_text{
+        width: 31.617em;
+        height: 8.483em;
+        margin-left: 8.373em;
+        margin-top: 1.469em;
+    }
+
+    .gs_text h3{
+        font-size: 0.438em;
+        margin-left: 31.3em;
+        margin-top: -0.1em;
+    }
+    
+    .gs_text h2{
+        font-size: 2.099em;
+        margin-left: 3.8em;
+    }
+    
+    .gs_text p{
+        font-size: 0.656em;
+        margin-top: 1.6em;
+    }
+
+    .gs_btn{
+        width: 17.718em;
+        height: 2.533em;
+        margin-left: 15.714em;
+        margin-top: 10.428em;
+    }
+    
+    .viewPricingBtn{
+        width: 10.3em;
+        font-size: 0.790em;
+    }
+    
+    .readDocBtn{
+        width: 12.4em;
+        height: 3.3em;
+        font-size: 0.766em;
+    }
+
+    .newsletter{
+        width: 48em;
+        height: 11.117em;
+    }
+    
+    .newsletter_content{
+        width: 44.35em;
+        height: 4.747em;
+        margin-left: 1.808em;
+        margin-top: 3.155em;
+        display: grid;
+        grid-template-columns: 16.5em 23.85em;
+        gap: 4em;
+    }
+
+    .newsletter_text h3{
+        font-size: 0.904em;
+    }
+    
+    .newsletter_text p{
+        font-size: 0.703em;
+        margin-top: 1em;
+    }
+
+    .newsletter_input{
+        margin-top: 0.904em;
+        width: 23.85em;
+        height: 2.963em;
+        grid-template-columns: 13.95em 9.2em;
+        gap: 0.7em;
+    }
+
+    .newsletter_input input{
+        padding-left: 1.8em;
+        font-size: 0.653em;
+    }
+    
+    .newsletter_input .saveBtn{
+        font-size: 0.653em;
+        padding-top: 0.2em;
+    }
+
+    footer{
+        width: 48em;
+        height: 10.125em;
+    }
+
+    .footer_content{
+        width: 48em;
+        height: 4.375em;
+        margin-left: 0;
+        margin-top: 1.383em;
+    }
+
+    .footer_logo{
+        margin-top: 1.5em;
+        margin-left: 2.2em;
+        width: 2em;
+        height: 2em;
+    }
+    
+    .footer_navigation{
+        display: none;
+    }
+
+    footer h3{
+        font-family: "Quicksand", serif;
+        font-weight: 500;
+        font-size: 0.75em;
+        letter-spacing: 0.05em;
+        color: #AEB8D0;
+        position: absolute;
+        margin-top: 8.55em;
+        margin-left: 23.3em;
+    }
+    
+    .footer_socials{
+        margin-left: 10.5em;
+        margin-top: 1.55em;
+        width: 15.5em;
+        height: 1.584em;
+    }
+    
+    .footer_socials ul{
+        display: grid;
+        grid-template-columns: 1em 1.8em 1.6em 1.5em;
+        gap: 3em;
+        list-style: none;
+        width: 15.188em;
+    }
+
+    .footer_socials img{
+        margin-top: 0.2em;
+        height: 1.4em;
+    }
+
+    .footer_btn{
+        font-size: 0.887em;
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 9em;
+        height: 3.4em;
+    }
+
+    .menuMobile_footer{
+        display: flex;
+    }
+    
 
 }
