@@ -1962,4 +1962,85 @@ footer h3{
         width: 0.704em;
         height: 0.705em;
     }
+
+    .faq_section{
+        width: 48em;
+        height: 43.625em;
+        position: relative;
+    }
+    
+    .faq_content{
+        width: 39.25em;
+        height: 32.438em;
+        margin-top: 1.75em;
+        margin-left: 4.375em;
+    }
+    
+    .faq_title{
+        width: 16.343em;
+        height: 3.313em;
+        margin-left: 11.411em;
+    }
+    
+    .faq_title h3{
+        font-size: 0.529em;
+        margin-left: 10.6em;
+        margin-top: 0.1em;
+    }
+    
+    .faq_title h2{
+        font-size: 1.271em;
+        margin-top: 0.85em;
+    }
+
+    .questions{
+        margin-top: 3.5em;
+        grid-row: 39.25em 39.25em 39.25em 39.25em 39.25em;
+        gap: 0.898em;
+    }
+    
+    .questions img{
+        position: absolute;
+        height: 0.55em;
+        width: 0.9em;
+        margin-left: 1.2em;
+        margin-top: 1em;
+    }
+
+    .firstQuestion{
+        height: 3.17em;
+    }
+
+    .secondQuestion{
+        height: 3.17em;
+    }
+
+    .thirdQuestion{
+        height: 9.298em;
+    }
+
+    .fourthQuestion{
+        height: 3.17em;
+    }
+
+    .fifthQuestion{
+        height: 3.17em;
+    }
+
+    .questions h4{
+        font-size: 0.794em;
+    }
+
+    .questions p{
+        font-size: 0.741em;
+    }
+
+    .thirdQuestion button{
+        font-size: 0.688em;
+        width: 15em;
+        height: 3.2em;
+        margin-top: 5.11em;
+        margin-left: 41em;
+    }
+
 }
