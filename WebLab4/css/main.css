@@ -1708,4 +1708,65 @@ footer h3{
         margin-top: 30%;
     }
 
+    .stats{
+        width: 48em;
+        height: 13.897em;
+    }
+    
+    .firstStatTextSection{
+        width: 12.612em;
+        height: 11.606em;
+        position:absolute;
+        margin-left: 28.8%;
+        margin-top: 4.6%;
+    }
+    
+
+    .firstStatTextSection img{
+        height: 3.648em;
+        width: 3.153em;
+    }
+
+    .firstStatTextSection h4{
+        font-size: 2.187em;
+        margin-top: 4%;
+    }
+    
+    .firstStatTextSection p{
+        font-size: 0.82em;
+        margin-top: 7%;
+        margin-right: 0;
+    }
+    
+    .secondStatTextSection{
+        width: 12.612em;
+        height: 11.385em;
+        position: absolute;
+        margin-left: 12.4%;
+        margin-top: 5.5%;
+    }
+    
+    .secondStatTextSection img{
+        width: 3.6em;
+        height: 3.6em;
+        margin-left: 1.5em;
+        margin-bottom: 0.125em;
+    }
+    
+    .secondStatTextSection h4{
+        font-size: 2.187em;
+        margin-top: 1.55%;
+        margin-left: 0.65em;
+    }
+    
+    .secondStatTextSection p{
+        font-size: 0.82em;
+        font-weight: 500;
+        margin-top: 7.2%;
+        margin-left: 1.7em;
+    }
+
+
+
+
 }
