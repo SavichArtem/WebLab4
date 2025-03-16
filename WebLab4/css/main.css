@@ -2217,6 +2217,164 @@ footer h3{
     .menuMobile_footer{
         display: flex;
     }
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 320px){
+        .header{
+            width: 20em;
+            height: 1.719em;
+            padding-left: 2.188em;
+            padding-right: 2.188em;
+        }
+    
+        .menuMobile{
+            display: flex;
+            width: 1em;
+            height: 1em;
+            margin-left: 19.35em;
+            margin-top: 0.599em;
+            position: absolute;
+        }
+    
+        header .logo{
+            margin-top: 0.57em;
+            margin-left: -1.25em;
+            width: 0.835em;
+            height: 0.833em;
+        }
+    
+        .navigation{
+            display: none;
+        }
+    
+        .socials{
+            margin-left: 4.347em;
+            margin-top: 0.25em;
+            width: 6.328em;
+            height: 0.66em;
+        }
+    
+        .socials img{
+            margin-top: 0.3em;
+            height: 0.6em;
+        }
+        
+        .socials ul{
+            display: grid;
+            grid-template-columns: 0.37em 0.59em 0.6em 0.645em;
+            gap: 1.35em;
+            list-style: none;
+            width: 100%;
+        }
+        
+        .btn{
+            font-size: 0.369em;
+            margin-top: 1em;
+            margin-left: 31.2em;
+            width: 9.02em;
+            height: 3.2em;
+            position: absolute;
+        }
+
+        .heroImage{
+            height: 13.375em;
+            width: 20em;
+            overflow: hidden;
+        }
+    
+        .text_illustation{
+            width: 33.813em;
+            height: 12.507em;
+            background-repeat: no-repeat;
+            background-position: -6.8em 0em;
+            background-size: 33.5em;
+        }
+    
+        .heroImage h2{
+            width: 15em;
+            height: 1em;
+            top: 1.223;
+            left: 15.3em;
+            font-size: 0.438em;
+        }
+        
+        h1{
+            font-size: 1.464em;
+            top: 16%;
+            left: 3.2%;
+        }
+        
+        .heroImage p{
+            left: 7%;
+            top: 35.8%;
+            font-size: 0.563em;
+            width: 27em;
+            height: 6em;
+        }
+    
+        .text_illustation .playBtn{
+            left: 27%;
+            width: 2.0em;
+            height: 2em;
+            background-size: 5px;
+            top: 65%;
+        }
+        
+        .text_illustation .slider_nav{
+            width: 3em;
+            height: 0.5em;
+            top: 99%;
+            left: 26%;
+            column-gap: 0.66em;
+        }
+    
+        .text_illustation .slider_nav a{
+            margin: 0em;
+            width: 0.35em;
+            height: 0.4em;
+            border-radius: 50%;
+            background-color: #D1D6E3;
+        }
+
+        .customersSection{
+            height: 3.871em;
+            width: 20em;
+            padding: 0;
+            overflow: hidden;
+    
+        }
+        
+        .customersSection nav ul{
+            width: 36.207em;
+            height: 4em;
+            padding-left: 0.689em;
+            padding-top: 1.153em;
+            gap: 1.326em;
+            overflow: hidden;
+        }
+    
+        .customersSection img{
+            width: 6.181em;
+            height: 1.538em;
+        }
+    
+        .secondCustomer{
+            padding-top: 0em;
+        }
+    
+        .thirdCustomer{
+            padding-top: 0em;
+        }
+    }
     
 
 }
