@@ -2984,6 +2984,55 @@ footer h3{
             font-size: 0.638em;
             overflow: hidden;
         }
+
+        .newsletter{
+            width: 20em;
+            height: 16em;
+        }
+        
+        .newsletter_content{
+            width: 16.5em;
+            height: 15em;
+            margin-left: 1.5em;
+            margin-top: 1.85em;
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: 4.776em 2.963em;
+            text-align: center;
+            gap: 0.599em;
+        }
+    
+        .newsletter_text h3{
+            font-size: 0.904em;
+        }
+        
+        .newsletter_text p{
+            font-size: 0.703em;
+            margin-top: 1em;
+            margin-left: 0.55em;
+        }
+    
+        .newsletter_input{
+            margin-top: 0em;
+            width: 15.8em;
+            height: 2.963em;
+            grid-template-columns: none;
+            grid-template-rows: 2.963em 2.938em;
+            gap: 0.974em;
+        }
+    
+        .newsletter_input input{
+            padding-left: 1.8em;
+            font-size: 0.653em;
+            margin-left: 2.8em;
+        }
+        
+        .newsletter_input .saveBtn{
+            font-size: 0.653em;
+            padding-top: 0.2em;
+            margin-left: 5.6em;
+            margin-right: 4.2em;
+        }
         
 
                 
