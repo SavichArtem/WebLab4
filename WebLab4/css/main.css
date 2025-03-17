@@ -1044,6 +1044,7 @@ span{
     margin-left: 4.1em;
     margin-top: 0.9em;
     height: 1.5em;
+    width: 20em;
 }
 
 .thirdQuestion button{
@@ -1076,7 +1077,8 @@ span{
     font-size: 0.875em;
     color: #8D96BD;
     margin-top: 4.1em;
-    margin-left: -14em;
+    margin-left: -20.2em;
+    width: 28em;
 }
 
 .fourthQuestion{
@@ -2890,7 +2892,7 @@ footer h3{
         .questions p{
             font-size: 0.457em;
             width: 21em;
-            margin-left: -15.5em;
+            margin-left: -21.5em;
             margin-top: 3.6em;
             height: 8em;
         }
@@ -3030,10 +3032,85 @@ footer h3{
         .newsletter_input .saveBtn{
             font-size: 0.653em;
             padding-top: 0.2em;
-            margin-left: 5.6em;
+            margin-left: 5.7em;
             margin-right: 4.2em;
         }
         
+        footer{
+            width: 20em;
+            height: 5.063em;
+        }
+    
+        .footer_content{
+            width: 18.177em;
+            height: 1.254em;
+            margin-left: 0.849em;
+            margin-top: 0.767em;
+        }
+    
+        .footer_logo{
+            margin-top: 0.3em;
+            width: 0.835em;
+            height: 0.856em;
+            margin-left: 0em;
+        }
+        
+        .footer_navigation{
+            display: none;
+        }
+    
+        footer h3{
+            font-family: "Quicksand", serif;
+            font-weight: 500;
+            width: 18em;
+            font-size: 0.513em;
+            letter-spacing: 0.05em;
+            color: #AEB8D0;
+            position: absolute;
+            margin-top: 5.5em;
+            margin-left: 9.2em;
+        }
+        
+        .footer_socials{
+            margin-left: 4.347em;
+            margin-top: 0em;
+            width: 6.328em;
+            height: 0.678em;
+        }
+        
+        .footer_socials ul{
+            display: grid;
+            grid-template-columns: 0.37em 0.59em 0.6em 0.645em;
+            gap: 1.35em;
+            list-style: none;
+            width: 100%;
+        }
+    
+        .footer_socials img{
+            margin-top: 0.2em;
+            height: 0.6em;
+        }
+    
+        .footer_btn{
+            font-size: 0.369em;
+            margin-top: 0.2em;
+            margin-left: 3.5em;
+            width: 9.2em;
+            height: 3.3em;
+        }
+    
+        .menuMobile_footer{
+            display: flex;
+            width: 1em;
+            height: 1em;
+            margin-left: 1.37em;
+            margin-top: 0.28em;
+            background-image: url('../assets/menuMobile.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+        }
 
                 
     }
