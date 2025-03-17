@@ -2763,8 +2763,8 @@ footer h3{
             width: 40.012em;
             height: 9em;
             margin-left: -2em;
-            margin-top: -4em;
-            position:fixed;
+            margin-top: 8.4em;
+            position: absolute;
         }
         
         .firstQuote{
@@ -2815,6 +2815,7 @@ footer h3{
             width: 0.704em;
             height: 0.705em;
         }
+
                 
     }
     
