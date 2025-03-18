@@ -9,7 +9,11 @@
     box-sizing: border-box;
 }
 
-
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
 
 .header {
     padding-left: 7.313em;
@@ -1427,8 +1431,10 @@ footer h3{
 }
 
 @media (max-width: 768px){
+
     .header{
         height: 4.125em;
+        width: 48em;
         padding-left: 2.188em;
         padding-right: 2.188em;
     }
@@ -1572,7 +1578,7 @@ footer h3{
     .plan_manage h2{
         padding-top: 4.8%;
         padding-left: 39.3%;
-        width: 111.676em;
+        width: 48em;
         height: 0.784em;
         font-size: 0.688em;
     }
@@ -1887,14 +1893,14 @@ footer h3{
     .quotesSection{
         width: 48em;
         height: 16.813em;
-    
     }
     
     .quotesContentSection{
-        width: 61.341em;
+        width: 47em;
         height: 11.676em;
         margin-left: 0.9em;
         margin-top: 2.688em;
+        overflow: hidden;
     }
     
     .quotesTitle{
@@ -2387,7 +2393,7 @@ footer h3{
         .plan_manage h2{
             padding-top: 7.5%;
             padding-left: 31.2%;
-            width: 111.676em;
+            width: 30em;
             height: 0.784em;
             font-size: 0.5em;
         }
@@ -2570,7 +2576,7 @@ footer h3{
         }
         
         .secondStatTextSection{
-            width: 12.612em;
+            width: 8em;
             height: 11.385em;
             position: absolute;
             margin-left: 12%;
@@ -2730,9 +2736,9 @@ footer h3{
         }
         
         .quotesContentSection{
-            width: 14.625em;
-            height: 8.188em;
-            margin-left: 2.688em;
+            width: 18.5em;
+            height: 22em;
+            margin-left: 0.688em;
             margin-top: 1.125em;
         }
         
@@ -2743,7 +2749,7 @@ footer h3{
         .quotesTitle h3{
             font-size: 0.5em;
             margin-top: 0em;
-            margin-left: 10.45em;
+            margin-left: 14.5em;
         
         }
         
@@ -2751,26 +2757,27 @@ footer h3{
             width: 14.688em;
             font-size: 1.563em;
             letter-spacing: 0.005em;
+            margin-left: 1.3em;
             margin-top: 0.85em;
         }
         
         .quotesTitle p{
             font-size: 0.528em;
             margin-top: 1.5em;
-            margin-left: -12.5em;
+            margin-left: -5em;
             text-align: center;
         }
     
         .quotes{
             width: 40.012em;
             height: 9em;
-            margin-left: -2em;
+            margin-left: 0em;
             margin-top: 8.4em;
             position: absolute;
         }
         
         .firstQuote{
-            width: 18.599em;
+            width: 19em;
             height: 9.077em;
         }
         
@@ -2809,7 +2816,7 @@ footer h3{
             width: 14.774em;
             column-gap: 1.063em;
             margin-top: 19.4em;
-            margin-left: -0.1em;
+            margin-left: 1.9em;
             height: 0.705em;
         }
         
@@ -2852,7 +2859,7 @@ footer h3{
             margin-top: 2.5em;
             grid-row: 1.954em 1.954em 5.732em 1.954em 1.954em;
             gap: 0.554em;
-            width: 20em;
+            width: 0em;
         }
         
         .questions img{
@@ -2914,7 +2921,7 @@ footer h3{
         
         .gs_clouds{
             position: absolute;
-            width: 20em;
+            width: 19.8em;
             height: 7.188em;
             margin-left: 0em;
             margin-top: 3em;
@@ -2934,7 +2941,7 @@ footer h3{
         
         .gs_text h3{
             font-family: "Roboto", serif;
-            width: 9em;
+            width: 10em;
             height: 1em;
             font-weight: 500;
             font-size: 0.563em;
@@ -2994,7 +3001,7 @@ footer h3{
         
         .newsletter_content{
             width: 16.5em;
-            height: 15em;
+            height: 14em;
             margin-left: 1.5em;
             margin-top: 1.85em;
             display: grid;
